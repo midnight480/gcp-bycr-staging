@@ -108,6 +108,12 @@ sudo cp /etc/letsencrypt/live/${domain}/fullchain.pem /etc/pki/tls/certs/fullcha
 * [デフォルトの Logging エージェントのログ](https://cloud.google.com/logging/docs/agent/default-logs?hl=ja)
 * [gcloud compute disks list](https://cloud.google.com/sdk/gcloud/reference/compute/disks/list)
 * [カスタム イメージの作成、削除、利用非推奨](https://cloud.google.com/compute/docs/images/create-delete-deprecate-private-images#gcloud)
+* [ヘルスチェックと自動修復の設定](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs?hl=ja)
+
+```
+ソース IP 範囲 130.211.0.0/22, 35.191.0.0/16
+許可対象プロトコル / ポート tcp:443
+```
 
 ## GAE - ReverseProxy
 
